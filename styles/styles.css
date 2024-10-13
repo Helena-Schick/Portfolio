@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    margin: 0px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #00105e;
+    position: fixed;
+    width: 100%;
+    z-index:2;
+    padding:10px;
+    height:65px;
+    top:0px;
+    align-items: baseline;
+}
+
+.navbar-link{
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #2ba2ab;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    font-family: roboto, sans-serif;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.navbar-link:hover {
+    color: #00105e;
+    background-color:#ffffff
+}
+
+.header {
+    align-content: center;
+    width: 100%;
+    padding-top: 190px;    
+    color: #00105eff;
+    font-size: 100px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    top: 0px;
+}
+
+.sub-heading{
+    align-content:center;
+    font-size:50px;
+}
+
+.header-image {
+    background-image: url(./../resources/background.jpg);
+    background-position: center;
+    margin-top:50px;
+    width: 100%;
+    opacity: 0.4;
+    height: 530px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0px;
+}
+
+.blue-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    width:82vw;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #2ba2ab;
+}
+
+.content-container {
+    width: 37vw;
+    margin: 4vw;
+}
+
+.small-container {
+    width: 33vw;
+    margin:4vw;
+    padding: 0px;
+}
+
+.text-box {
+    background-color: #2ba2ab;
+    font-family: roboto, sans-serif;
+    color: white;
+    margin:4vw;
+    padding:3vw;
+    width:31vw;
+    height:18.6667vw;
+    display: block;
+    font-size: 1.7vw;
+}
+
+.blue-section-text-box {
+    background-color: #2ba2ab;
+    font-family: roboto, sans-serif;
+    color: white;
+    width:33vw;
+    height:22vw;
+    display: block;
+    font-size: 1.7vw;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px;
+    margin:0px;
+    transition: color 0.5s;
+    display:block;
+    background-color:#2ba2ab;
+    font-family: roboto, sans-serif;
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+.link:hover {
+    color:#00105e;
+}
+
+.image{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+.carousel-image{
+    height: 29.5vw;
+    padding:0px;
+    margin:0.3vw 0px;
+    width:19vw;
+    left:20%;
+    display:none;
+}
+
+.image-carousel {
+    width:41%;
+    height:30vw;
+    align-items: center; 
+    background-color: #00105e;
+    display:flex;
+}
+
+.carousel-button{
+    background-color:#00105e;
+    height:30vw;
+    width:11vw;
+    display:block;
+    padding:0px;
+    align-content: center;
+}
+
+.arrow{
+    width:20%;
+    height: 14%;
+    margin: 43% 40%;
+    opacity:0.5;
+    transition: 0.5s;
+}
+
+.carousel-button:hover .arrow{
+    width:26%;
+    height:18.2%;
+    margin: 37.5%;
+    opacity:1;
+}
+
+.button-right{
+    right:50%;
+}
+
+.button-right-2{
+    right:9%;
+}
+
+
+.carousel-text-box {
+    background-color: #2ba2ab;
+    font-family: roboto, sans-serif;
+    color: white;
+    width:31%;
+    height:20vw;
+    padding:5vw 5%;
+    display: block;
+    font-size: 1.7vw;
+}
+
+.image-number{
+    color:white;
+    font-size:1.5vw;
+    font-family: roboto,sans-serif;
+    z-index:1;
+    padding:1vw;
+    position:absolute;
+    margin:3.25%;
+
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color:#00105e;
+    font-family: roboto, sans-serif;
+    padding: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #00105e;
+    padding-top: 30px;
+}
+
+.dropdown-link{
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown {
+    margin:0px;
+    padding-top:20px;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+.dropdown:hover .dropdown-menu {
+    background-color: #ffffff;
+    color: #00105e;
+}
+
+.dropdown-link:hover {
+    background-color:#ffffffcc;
+    color:#00105e;
+}
